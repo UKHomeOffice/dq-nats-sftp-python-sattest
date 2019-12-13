@@ -20,9 +20,9 @@ spec:
           - key: SSH_PRIVATE_KEY
             path: id_rsa
             mode: 400
-      - name: nats-volume
+      - name: nats-volume-sattest
         persistentVolumeClaim:
-          claimName: nats-volume
+          claimName: nats-volume-sattest
       containers:
 
       - name: dq-nats-data-ingest
