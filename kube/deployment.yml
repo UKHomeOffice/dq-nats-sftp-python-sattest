@@ -82,7 +82,7 @@ spec:
           - name: GA_S3_BUCKET_NAME
             valueFrom:
               secretKeyRef:
-                name: dq-nats-data-ingest
+                name: dq-nats-data-ingest-sattest
                 key: GA_S3_BUCKET_NAME
           - name: GA_S3_KEY_PREFIX
             valueFrom:
